@@ -13,14 +13,14 @@ Modifiers
 Usage
 -----
 
-  from access import private, protected
+    from access import private, protected
 
-  class A:
+    class A:
 
-    @private
-    def private_method(self):
-      pass
+        @private
+        def private_method(self):
+            pass
 
-    @protected
-    def protected_method(self):
-      pass
+        @protected
+        def protected_method(self):
+            pass
